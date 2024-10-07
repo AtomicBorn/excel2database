@@ -14,7 +14,8 @@ class ImportUsers extends Controller
 
                     "fname"  => $data[0],
                     "lname"  => $data[1],
-                    "age"    => $data[2]
+                    "age"    => $data[2],
+                    "gender" => $data[3]
                 ]);
             }
             return[
